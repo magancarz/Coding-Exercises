@@ -128,10 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Educative.io\merge_sort.h" />
-    <ClInclude Include="Educative.io\num_of_palindromic_substrings.h" />
+    <ClInclude Include="Educative.io\longest_palindromic_subsequence.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Educative.io\num_of_palindromic_substrings.cpp" />
+    <ClCompile Include="Educative.io\longest_palindromic_subsequence.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="Educative.io\merge_sort.cpp" />
   </ItemGroup>

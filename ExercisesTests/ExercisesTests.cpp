@@ -5,6 +5,8 @@
 
 #include "../Educative.io/merge_sort.h"
 #include "../Educative.io/merge_sort.cpp"
+#include "../Educative.io/longest_palindromic_subsequence.h"
+#include "../Educative.io/longest_palindromic_subsequence.cpp"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -23,6 +25,13 @@ namespace ExercisesTests {
 			for(int i = 0; i < arr_size; ++i) {
 				Assert::AreEqual(expected_arr[i], actual_arr[i]);
 			}
+		}
+
+		TEST_METHOD(longest_palindromic_subsequence_test) {
+			const int actual_len = lps("PASTA", "ATSAP", 5, 5);
+			constexpr int expected_len = 3;
+
+			Assert::AreEqual(expected_len, actual_len);
 		}
 	};
 }

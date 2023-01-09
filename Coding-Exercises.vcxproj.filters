@@ -18,7 +18,7 @@
     <ClInclude Include="Educative.io\merge_sort.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="Educative.io\num_of_palindromic_substrings.h">
+    <ClInclude Include="Educative.io\longest_palindromic_subsequence.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>
@@ -29,7 +29,7 @@
     <ClCompile Include="src\main.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="Educative.io\num_of_palindromic_substrings.cpp">
+    <ClCompile Include="Educative.io\longest_palindromic_subsequence.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>
