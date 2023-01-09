@@ -7,6 +7,8 @@
 #include "../Educative.io/merge_sort.cpp"
 #include "../Educative.io/longest_palindromic_subsequence.h"
 #include "../Educative.io/longest_palindromic_subsequence.cpp"
+#include "../GFG/zero_one_patterns.h"
+#include "../GFG/zero_one_patterns.cpp"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -32,6 +34,13 @@ namespace ExercisesTests {
 			constexpr int expected_len = 3;
 
 			Assert::AreEqual(expected_len, actual_len);
+		}
+
+		TEST_METHOD(zero_one_patterns_test) {
+			const int actual_count = zero_one_pattern_count("1001ab010abc01001");
+			constexpr int expected_count = 2;
+
+			Assert::AreEqual(expected_count, actual_count);
 		}
 	};
 }

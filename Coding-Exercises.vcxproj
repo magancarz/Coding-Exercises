@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClInclude Include="Educative.io\merge_sort.h" />
     <ClInclude Include="Educative.io\longest_palindromic_subsequence.h" />
+    <ClInclude Include="GFG\zero_one_patterns.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Educative.io\longest_palindromic_subsequence.cpp" />
+    <ClCompile Include="GFG\zero_one_patterns.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="Educative.io\merge_sort.cpp" />
   </ItemGroup>
