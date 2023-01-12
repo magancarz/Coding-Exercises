@@ -9,6 +9,7 @@
 #include "../Educative.io/longest_palindromic_subsequence.cpp"
 #include "../GFG/zero_one_patterns.h"
 #include "../GFG/zero_one_patterns.cpp"
+#include "../Codility/binary_gap.cpp"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -40,6 +41,12 @@ namespace ExercisesTests {
 			const int actual_count = zero_one_pattern_count("1001ab010abc01001");
 			constexpr int expected_count = 2;
 
+			Assert::AreEqual(expected_count, actual_count);
+		}
+
+		TEST_METHOD(binary_gap_test) {
+			const int actual_count = binary_gap(74901729);
+			constexpr int expected_count = 4;
 			Assert::AreEqual(expected_count, actual_count);
 		}
 	};
