@@ -13,6 +13,7 @@
 #include "../Codility/array_rotation.cpp"
 #include "../Codility/lonely_odd_array.cpp"
 #include "../Codility/frog_jump.cpp"
+#include "../Codility/perm_missing_elem.cpp"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -74,6 +75,13 @@ namespace ExercisesTests {
 		TEST_METHOD(frog_jump_test) {
 			const int actual_number = frog_jump(10, 85, 30);
 			constexpr int expected_number = 3;
+			Assert::AreEqual(expected_number, actual_number);
+		}
+
+		TEST_METHOD(perm_missing_elem_test) {
+			std::vector<int> test = {2,3,4,5,6};
+			const int actual_number = perm_missing_elem(test);
+			constexpr int expected_number = 1;
 			Assert::AreEqual(expected_number, actual_number);
 		}
 	};
