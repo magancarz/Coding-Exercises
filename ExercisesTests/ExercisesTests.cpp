@@ -11,6 +11,7 @@
 #include "../GFG/zero_one_patterns.cpp"
 #include "../Codility/binary_gap.cpp"
 #include "../Codility/array_rotation.cpp"
+#include "../Codility/lonely_odd_array.cpp"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -60,6 +61,13 @@ namespace ExercisesTests {
 			for(int i = 0; i < actual_vec.size(); ++i) {
 				Assert::AreEqual(expected_vec[i], actual_vec[i]);
 			}
+		}
+
+		TEST_METHOD(odd_pair_number_test) {
+			std::vector<int> test_vec = { 9, 5, 9, 5, 7, 9, 9 };
+			const int actual_number = lonely_odd_array(test_vec);
+			constexpr int expected_number = 7;
+			Assert::AreEqual(expected_number, actual_number);
 		}
 	};
 }
