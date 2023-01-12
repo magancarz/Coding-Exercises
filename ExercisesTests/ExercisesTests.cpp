@@ -14,6 +14,7 @@
 #include "../Codility/lonely_odd_array.cpp"
 #include "../Codility/frog_jump.cpp"
 #include "../Codility/perm_missing_elem.cpp"
+#include "../Codility/minimal_difference.cpp"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -81,6 +82,13 @@ namespace ExercisesTests {
 		TEST_METHOD(perm_missing_elem_test) {
 			std::vector<int> test = {2,3,4,5,6};
 			const int actual_number = perm_missing_elem(test);
+			constexpr int expected_number = 1;
+			Assert::AreEqual(expected_number, actual_number);
+		}
+
+		TEST_METHOD(minimal_difference_test) {
+			std::vector<int> test = {3, 1, 2, 4, 3};
+			const int actual_number = minimal_difference(test);
 			constexpr int expected_number = 1;
 			Assert::AreEqual(expected_number, actual_number);
 		}
