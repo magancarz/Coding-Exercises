@@ -10,6 +10,7 @@
 #include "../GFG/zero_one_patterns.h"
 #include "../GFG/zero_one_patterns.cpp"
 #include "../Codility/binary_gap.cpp"
+#include "../Codility/array_rotation.cpp"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -48,6 +49,17 @@ namespace ExercisesTests {
 			const int actual_count = binary_gap(74901729);
 			constexpr int expected_count = 4;
 			Assert::AreEqual(expected_count, actual_count);
+		}
+
+		TEST_METHOD(array_rotation_test) {
+			std::vector<int> test_vec = { 1, 2, 3, 4, 5, 6 };
+
+			const auto actual_vec = array_rotation(test_vec, 3);
+			const std::vector<int> expected_vec = {4, 5, 6, 1, 2, 3};
+
+			for(int i = 0; i < actual_vec.size(); ++i) {
+				Assert::AreEqual(expected_vec[i], actual_vec[i]);
+			}
 		}
 	};
 }
