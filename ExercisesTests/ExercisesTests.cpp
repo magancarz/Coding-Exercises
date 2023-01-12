@@ -15,6 +15,7 @@
 #include "../Codility/frog_jump.cpp"
 #include "../Codility/perm_missing_elem.cpp"
 #include "../Codility/minimal_difference.cpp"
+#include "../Codility/frog_river_one.cpp"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -90,6 +91,13 @@ namespace ExercisesTests {
 			std::vector<int> test = {3, 1, 2, 4, 3};
 			const int actual_number = minimal_difference(test);
 			constexpr int expected_number = 1;
+			Assert::AreEqual(expected_number, actual_number);
+		}
+
+		TEST_METHOD(frog_river_one_test) {
+			std::vector<int> test = {1, 3, 1, 4, 2, 3, 5, 4};
+			const int actual_number = frog_river_one(5, test);
+			constexpr int expected_number = 6;
 			Assert::AreEqual(expected_number, actual_number);
 		}
 	};
