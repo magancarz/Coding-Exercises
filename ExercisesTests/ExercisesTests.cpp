@@ -12,6 +12,7 @@
 #include "../Codility/binary_gap.cpp"
 #include "../Codility/array_rotation.cpp"
 #include "../Codility/lonely_odd_array.cpp"
+#include "../Codility/frog_jump.cpp"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -67,6 +68,12 @@ namespace ExercisesTests {
 			std::vector<int> test_vec = { 9, 5, 9, 5, 7, 9, 9 };
 			const int actual_number = lonely_odd_array(test_vec);
 			constexpr int expected_number = 7;
+			Assert::AreEqual(expected_number, actual_number);
+		}
+
+		TEST_METHOD(frog_jump_test) {
+			const int actual_number = frog_jump(10, 85, 30);
+			constexpr int expected_number = 3;
 			Assert::AreEqual(expected_number, actual_number);
 		}
 	};

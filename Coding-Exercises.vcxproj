@@ -138,6 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Codility\array_rotation.cpp" />
+    <ClCompile Include="Codility\frog_jump.cpp" />
     <ClCompile Include="Codility\lonely_odd_array.cpp" />
     <ClCompile Include="Educative.io\longest_palindromic_subsequence.cpp" />
     <ClCompile Include="GFG\zero_one_patterns.cpp" />
