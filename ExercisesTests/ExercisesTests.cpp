@@ -18,6 +18,7 @@
 #include "../Codility/frog_river_one.cpp"
 #include "../Codility/perm_check.cpp"
 #include "../Codility/max_counters.cpp"
+#include "../Codility/first_missing_elem.cpp"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -117,6 +118,13 @@ namespace ExercisesTests {
 			for(int i = 0; i < actual.size(); ++i) {
 				Assert::AreEqual(expected[i], actual[i]);
 			}
+		}
+
+		TEST_METHOD(first_missing_elem_test) {
+			std::vector<int> test = {-1000,1000,2,3,4,5};
+			const int actual = firs_missing_elem(test);
+			constexpr int expected = 1;
+			Assert::AreEqual(expected, actual);
 		}
 	};
 }
