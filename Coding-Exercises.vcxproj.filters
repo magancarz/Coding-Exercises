@@ -59,5 +59,8 @@
     <ClCompile Include="Codility\frog_river_one.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="Codility\perm_check.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

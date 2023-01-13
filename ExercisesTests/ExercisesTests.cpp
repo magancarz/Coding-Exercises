@@ -16,6 +16,7 @@
 #include "../Codility/perm_missing_elem.cpp"
 #include "../Codility/minimal_difference.cpp"
 #include "../Codility/frog_river_one.cpp"
+#include "../Codility/perm_check.cpp"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -99,6 +100,13 @@ namespace ExercisesTests {
 			const int actual_number = frog_river_one(5, test);
 			constexpr int expected_number = 6;
 			Assert::AreEqual(expected_number, actual_number);
+		}
+
+		TEST_METHOD(perm_check_test) {
+			std::vector<int> test = {1,2,3,5,5,4};
+			const int actual = perm_check(test);
+			constexpr int expected = 0;
+			Assert::AreEqual(expected, actual);
 		}
 	};
 }

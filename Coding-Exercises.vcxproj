@@ -142,6 +142,7 @@
     <ClCompile Include="Codility\frog_river_one.cpp" />
     <ClCompile Include="Codility\lonely_odd_array.cpp" />
     <ClCompile Include="Codility\minimal_difference.cpp" />
+    <ClCompile Include="Codility\perm_check.cpp" />
     <ClCompile Include="Codility\perm_missing_elem.cpp" />
     <ClCompile Include="Educative.io\longest_palindromic_subsequence.cpp" />
     <ClCompile Include="GFG\zero_one_patterns.cpp" />
