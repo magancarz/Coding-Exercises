@@ -17,6 +17,7 @@
 #include "../Codility/minimal_difference.cpp"
 #include "../Codility/frog_river_one.cpp"
 #include "../Codility/perm_check.cpp"
+#include "../Codility/max_counters.cpp"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -107,6 +108,15 @@ namespace ExercisesTests {
 			const int actual = perm_check(test);
 			constexpr int expected = 0;
 			Assert::AreEqual(expected, actual);
+		}
+
+		TEST_METHOD(max_counters_test) {
+			std::vector<int> test = {3,4,4,6,1,4,4};
+			const std::vector<int> actual = max_counters(5, test);
+			const std::vector<int> expected = {3,2,2,4,2};
+			for(int i = 0; i < actual.size(); ++i) {
+				Assert::AreEqual(expected[i], actual[i]);
+			}
 		}
 	};
 }
