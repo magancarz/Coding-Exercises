@@ -71,5 +71,8 @@
     <ClCompile Include="Codility\passing_cars.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="Codility\count_div.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

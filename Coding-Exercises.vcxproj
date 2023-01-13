@@ -138,6 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Codility\array_rotation.cpp" />
+    <ClCompile Include="Codility\count_div.cpp" />
     <ClCompile Include="Codility\first_missing_elem.cpp" />
     <ClCompile Include="Codility\frog_jump.cpp" />
     <ClCompile Include="Codility\frog_river_one.cpp" />
