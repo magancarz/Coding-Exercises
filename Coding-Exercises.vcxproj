@@ -144,6 +144,7 @@
     <ClCompile Include="Codility\lonely_odd_array.cpp" />
     <ClCompile Include="Codility\max_counters.cpp" />
     <ClCompile Include="Codility\minimal_difference.cpp" />
+    <ClCompile Include="Codility\passing_cars.cpp" />
     <ClCompile Include="Codility\perm_check.cpp" />
     <ClCompile Include="Codility\perm_missing_elem.cpp" />
     <ClCompile Include="Educative.io\longest_palindromic_subsequence.cpp" />

@@ -68,5 +68,8 @@
     <ClCompile Include="Codility\first_missing_elem.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="Codility\passing_cars.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
