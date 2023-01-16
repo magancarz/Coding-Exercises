@@ -83,5 +83,8 @@
     <ClCompile Include="Codility\array_contains_triangle.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="Codility\disk_intersection.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
