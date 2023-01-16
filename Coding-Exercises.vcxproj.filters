@@ -80,5 +80,8 @@
     <ClCompile Include="Codility\max_product_of_three.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="Codility\array_contains_triangle.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

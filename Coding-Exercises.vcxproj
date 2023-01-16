@@ -138,6 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Codility\array_rotation.cpp" />
+    <ClCompile Include="Codility\array_contains_triangle.cpp" />
     <ClCompile Include="Codility\count_div.cpp" />
     <ClCompile Include="Codility\distinct_numbers.cpp" />
     <ClCompile Include="Codility\first_missing_elem.cpp" />

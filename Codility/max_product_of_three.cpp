@@ -1,7 +1,7 @@
 #include <algorithm>
 #include <vector>
 
-int solution(std::vector<int> &A) {
+int max_product_of_three(std::vector<int> &A) {
     sort(A.begin(), A.end());
 
     int n = A.size();
