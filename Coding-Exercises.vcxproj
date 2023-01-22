@@ -144,6 +144,7 @@
     <ClCompile Include="Codility\disk_intersection.cpp" />
     <ClCompile Include="Codility\distinct_numbers.cpp" />
     <ClCompile Include="Codility\first_missing_elem.cpp" />
+    <ClCompile Include="Codility\fish.cpp" />
     <ClCompile Include="Codility\frog_jump.cpp" />
     <ClCompile Include="Codility\frog_river_one.cpp" />
     <ClCompile Include="Codility\lonely_odd_array.cpp" />
