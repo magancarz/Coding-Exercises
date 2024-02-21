@@ -1,11 +1,20 @@
 #include <iostream>
 
-#include "Codility/Iterations/BinaryGap.h"
+#include "Codility/Arrays/CyclicRotation.h"
 
 int main()
 {
-    int a = 529; //1000010001 4 and 3
+    std::vector<int> A = {3, 8, 9, 7, 6};
+    int K = 3;
 
-    std::cout << "Longest sequence of zeros in " << a << " is " << BinaryGap(a) << std::endl;
+    std::vector<int> result = CyclicRotation(A, K);
+
+    std::cout << "[" << result[0];
+    for (int i = 1; i < result.size(); ++i)
+    {
+        std::cout << ", " << result[i];
+    }
+    std::cout << "]\n";
+
     return 0;
 }
