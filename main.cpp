@@ -1,20 +1,12 @@
 #include <iostream>
 
-#include "Codility/Arrays/CyclicRotation.h"
+#include "Codility/Arrays/OddOccurrencesInArray.h"
 
 int main()
 {
-    std::vector<int> A = {3, 8, 9, 7, 6};
-    int K = 3;
+    std::vector<int> A = {9, 3, 9, 3, 9, 7, 9};
 
-    std::vector<int> result = CyclicRotation(A, K);
-
-    std::cout << "[" << result[0];
-    for (int i = 1; i < result.size(); ++i)
-    {
-        std::cout << ", " << result[i];
-    }
-    std::cout << "]\n";
+    std::cout << "Odd one is " << OddOccurrencesInArray(A) << "\n";
 
     return 0;
 }
