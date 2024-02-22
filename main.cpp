@@ -1,10 +1,12 @@
 #include <iostream>
 
-#include "TimeComplexity/FrogJmp.h"
+#include "TimeComplexity/PermMissingElem.h"
 
 int main()
 {
-    std::cout << "Frog has to jump " << FrogJmp(10, 85, 30) << " times.\n";
+    std::vector<int> A = {2, 3, 1, 5};
+
+    std::cout << "Perm missing element is " << PermMissingElem(A) << ".\n";
 
     return 0;
 }
