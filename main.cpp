@@ -1,12 +1,10 @@
 #include <iostream>
 
-#include "Codility/Arrays/OddOccurrencesInArray.h"
+#include "TimeComplexity/FrogJmp.h"
 
 int main()
 {
-    std::vector<int> A = {9, 3, 9, 3, 9, 7, 9};
-
-    std::cout << "Odd one is " << OddOccurrencesInArray(A) << "\n";
+    std::cout << "Frog has to jump " << FrogJmp(10, 85, 30) << " times.\n";
 
     return 0;
 }
