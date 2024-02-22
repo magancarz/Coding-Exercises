@@ -1,12 +1,12 @@
 #include <iostream>
 
-#include "TimeComplexity/PermMissingElem.h"
+#include "TimeComplexity/TapeEquilibrium.h"
 
 int main()
 {
-    std::vector<int> A = {2, 3, 1, 5};
+    std::vector<int> A = {3, 1, 2, 4, 3};
 
-    std::cout << "Perm missing element is " << PermMissingElem(A) << ".\n";
+    std::cout << "Minimal sum is " << TapeEquilibrium(A) << ".\n";
 
     return 0;
 }
