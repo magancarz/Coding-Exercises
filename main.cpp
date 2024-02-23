@@ -1,12 +1,11 @@
 #include <iostream>
 
-#include "CountingElements/PermCheck.h"
+#include "CountingElements/MaxCounters.h"
 
 int main()
 {
-    std::vector<int> A = {4, 1, 3};
-
-    std::cout << "Perm check " << PermCheck(A) << ".\n";
+    std::vector<int> A = {3, 4, 4, 6, 1, 4, 4};
+    auto test = MaxCounters(5, A);
 
     return 0;
 }
