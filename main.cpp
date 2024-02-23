@@ -1,12 +1,12 @@
 #include <iostream>
 
-#include "CountingElements/FrogRiverOne.h"
+#include "CountingElements/PermCheck.h"
 
 int main()
 {
-    std::vector<int> A = {1, 3, 1, 4, 2, 3, 5, 4};
+    std::vector<int> A = {4, 1, 3};
 
-    std::cout << "Earliest second a frog can jump over the river is " << FrogRiverOne(5, A) << ".\n";
+    std::cout << "Perm check " << PermCheck(A) << ".\n";
 
     return 0;
 }
