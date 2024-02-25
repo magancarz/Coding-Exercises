@@ -1,11 +1,13 @@
 #include <iostream>
 
-#include "PrefixSums/PassingCars.h"
+#include "PrefixSums/GenomicRangeQuery.h"
 
 int main()
 {
-    std::vector<int> A = {0, 1, 0, 1, 1};
-    auto test = PassingCars(A);
+    std::string S = "CAGCCTA";
+    std::vector<int> A = {2, 5, 0};
+    std::vector<int> B = {4, 5, 6};
+    auto test = GenomicRangeQuery(S, A, B);
 
     return 0;
 }
