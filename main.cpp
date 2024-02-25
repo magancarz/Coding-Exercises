@@ -1,11 +1,11 @@
 #include <iostream>
 
-#include "CountingElements/MaxCounters.h"
+#include "PrefixSums/PassingCars.h"
 
 int main()
 {
-    std::vector<int> A = {3, 4, 4, 6, 1, 4, 4};
-    auto test = MaxCounters(5, A);
+    std::vector<int> A = {0, 1, 0, 1, 1};
+    auto test = PassingCars(A);
 
     return 0;
 }
