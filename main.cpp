@@ -1,13 +1,12 @@
 #include <iostream>
 
 #include "PrefixSums/GenomicRangeQuery.h"
+#include "PrefixSums/MinAvgTwoSlice.h"
 
 int main()
 {
-    std::string S = "CAGCCTA";
-    std::vector<int> A = {2, 5, 0};
-    std::vector<int> B = {4, 5, 6};
-    auto test = GenomicRangeQuery(S, A, B);
+    std::vector<int> A = {4, 2, 2, 5, 1, 5, 8};
+    auto test = MinAvgTwoSlice(A);
 
     return 0;
 }
