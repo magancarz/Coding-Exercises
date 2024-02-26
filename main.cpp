@@ -5,8 +5,8 @@
 
 int main()
 {
-    std::vector<int> A = {4, 2, 2, 5, 1, 5, 8};
-    auto test = MinAvgTwoSlice(A);
+    int first, second, third;
+    first = second = third = std::numeric_limits<int>::min();
 
     return 0;
 }
