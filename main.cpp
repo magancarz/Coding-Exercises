@@ -2,11 +2,12 @@
 
 #include "PrefixSums/GenomicRangeQuery.h"
 #include "PrefixSums/MinAvgTwoSlice.h"
+#include "Sorting/NumberOfDiskIntersections.h"
 
 int main()
 {
-    int first, second, third;
-    first = second = third = std::numeric_limits<int>::min();
+    std::vector<int> A = {1, 5, 2, 1, 4, 0};
+    auto result = solution(A);
 
     return 0;
 }
