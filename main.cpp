@@ -5,12 +5,12 @@
 #include "Sorting/NumberOfDiskIntersections.h"
 #include "StacksAndQueues/Brackets.h"
 #include "StacksAndQueues/Fish.h"
+#include "StacksAndQueues/StoneWall.h"
 
 int main()
 {
-    std::vector<int> A = {4, 3, 2, 1, 5};
-    std::vector<int> B = {0, 1, 0, 0, 0};
-    auto test = solution(A, B);
+    std::vector<int> A = {8, 8, 5, 7, 9, 8, 7, 4, 8};
+    auto test = solution(A);
 
     return 0;
 }
