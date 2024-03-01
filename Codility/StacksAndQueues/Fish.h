@@ -2,7 +2,7 @@
 
 #include <vector>
 
-int solution(std::vector<int>& A, std::vector<int>& B)
+int Fish(std::vector<int>& A, std::vector<int>& B)
 {
     std::vector<int> fish;
     int fish_alive = 0;
