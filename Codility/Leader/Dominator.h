@@ -2,7 +2,7 @@
 
 #include <vector>
 
-int solution(std::vector<int>& A)
+int Dominator(std::vector<int>& A)
 {
     int stack_size = 0;
     int value;
